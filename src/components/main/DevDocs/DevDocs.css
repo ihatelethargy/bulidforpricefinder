@@ -1,0 +1,103 @@
+.devDocs {
+  height: 40vh;
+  background-color: rgb(246, 247, 248);;
+}
+
+.desktopDevDocs {
+  padding-top: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.desktopDevDocs .devDocsHeader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.desktopDevDocs .devDocsTitle {
+  margin-bottom: 6px;
+}
+
+.desktopDevDocs .devDocsTitle span {
+  font-size: 5vh;
+  font-weight: 800;
+}
+
+.desktopDevDocs .devDocsDesc  {
+  margin: 0 50px ;
+}
+
+.desktopDevDocs .devDocsDesc span {
+  font-size: 3vh;
+}
+
+.desktopDevDocs .devDocsBody {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e8eaf3;
+  width: 60%;
+  height: 90px;
+  font-size: 24px;
+  white-space: pre-line;
+  border-radius: 15px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.desktopDevDocs .devDocsBody:hover {
+  background-color: rgb(179, 179, 179);
+  cursor: default;
+}
+
+.mobileDevDocs {
+  padding-top: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.mobileDevDocs .devDocsHeader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mobileDevDocs .devDocsTitle {
+  margin-bottom: 6px;
+}
+
+.mobileDevDocs .devDocsTitle span {
+  font-size: 3.3vh;
+
+}
+
+.mobileDevDocs .devDocsDesc {
+  width: 90%;
+}
+
+.mobileDevDocs .devDocsDesc span {
+  font-size:1.9vh;
+}
+
+.mobileDevDocs .devDocsBody {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e8eaf3;
+  width: 70%;
+  height: 60px;
+  font-size: 20px;
+  white-space: pre-line;
+  border-radius: 15px;
+  margin-top: 30px;
+}
+
+.mobileDevDocs .devDocsBody:hover {
+  background-color: rgb(179, 179, 179);
+  cursor: default;
+}

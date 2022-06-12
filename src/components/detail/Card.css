@@ -1,0 +1,33 @@
+.cardMobile {
+    height: 279px;
+    width: 200px;
+    background: #808080;
+    border-radius: 10px;
+    overflow: hidden;
+    background: #000;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 70px 63px -60px #000;
+    margin-top: 50px;
+}
+
+.card :hover {
+    cursor: pointer;
+}
+
+.cardParent{
+    width: 100%;
+}
+
+.card{
+    height: 279px;
+    width: 200px;
+    background: #808080;
+    float:left; 
+    border-radius: 10px;
+    background: #000;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 70px 63px -60px #000;
+    margin: 60px;
+}

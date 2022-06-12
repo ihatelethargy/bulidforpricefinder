@@ -1,0 +1,126 @@
+.userDocs {
+  width: 100%;
+  height: 60vh;
+  background-color: rgb(246, 247, 248);
+}
+
+.desktopUserDocs {
+  padding-top: 80px;
+}
+
+.desktopUserDocs .userDocsHeader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 40%;
+}
+
+.desktopUserDocs.userDocsTitle {
+  margin-bottom: 24px;
+}
+
+.desktopUserDocs .userDocsHeader .userDocsTitle span {
+  font-size: 5vh;
+  font-weight: 800;
+}
+
+.desktopUserDocs .userDocsHeader .userDocsDesc {
+  margin-bottom: 30px;
+}
+
+.desktopUserDocs .userDocsHeader .userDocsDesc span {
+  font-size: 3vh;
+  color: black;
+}
+
+.desktopUserDocs .userDocsBody {
+  height: 100%;
+  display: flex;
+  padding-left: 15%;
+  padding-right: 15%;
+  justify-content: space-around;
+}
+
+.desktopUserDocs .userDocsBody .cardItem {
+  width: 20vw;
+  height: 40vh;
+  background-color: #e8eaf3;
+  border-radius: 15px;
+  padding: 20px;
+}
+
+.desktopUserDocs .userDocsBody .cardItem .cardTitle {
+  width: 100%;
+  height: 20%;
+  text-align: center;
+  font-weight: bold;
+}
+
+.desktopUserDocs .userDocsBody .cardItem .cardDetail {
+  width: 100%;
+  line-height: 190%;
+  font-size: 0.9vw;
+}
+
+.desktopUserDocs .logoWrapper {
+  width: 400px;
+  height: 350px;
+  background-image: url(img/logo.PNG);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.mobileUserDocs {
+  padding-top: 80px;
+}
+
+.mobileUserDocs .userDocsHeader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.mobileUserDocs.userDocsTitle {
+  margin-bottom: 24px;
+}
+
+.mobileUserDocs .userDocsHeader .userDocsTitle span {
+  font-size: 3.3vh;
+  font-weight: 800;
+}
+
+.mobileUserDocs .userDocsHeader .userDocsDesc {
+  margin-bottom: 30px;
+}
+
+.mobileUserDocs .userDocsHeader .userDocsDesc span {
+  font-size:1.9vh;
+  color: black;
+}
+
+.mobileUserDocs .userDocsBody .cardItem .cardDetail {
+  font-size: 1.8vh;
+}
+
+.mobileUserDocs .userDocsBody {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  
+}
+
+.mobileUserDocs .userDocsBody .cardItem {
+  width: 70%;
+  background-color: #e8eaf3;
+  height: 60%;
+  border-radius: 15px;
+  padding: 20px 30px;
+  text-align: center;
+}
