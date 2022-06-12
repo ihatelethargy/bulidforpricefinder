@@ -9,16 +9,16 @@ import { useState } from "react";
 
 function Header() {
     function homeClick(e) {
-        window.location.replace("/");
+        window.location.replace("/#/");
     }
     function detailClick(e) {
-        window.location.href = "/detail";
+        window.location.href = "/#/detail";
     }
     function detailSWClick(e) {
-        window.location.href = "/detail_SW";
+        window.location.href = "/#/detail_SW";
     }
     function docsClick(e) {
-        window.location.replace("/#docs");
+        window.location.replace("/#/#docs");
     }
 
     const [isOpen, setMenu] = useState(false);
